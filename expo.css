@@ -1,0 +1,198 @@
+body{
+    background-image: url(img/fondo.jpg);
+    width: 100%;
+}
+
+.letra{
+    font-size: 1.5em;
+    color: white;
+}
+.cabecera{
+    background-color:#223A5E ;
+    border-bottom: solid 5px grey;
+    text-align: center;
+    font-size: 1.8em;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: white;
+}
+
+.Panel_izquierdo{
+    width: 15%;
+    background-color:#223A5E;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+    padding: 10px;
+}
+
+.indice_panel{
+    text-align: center;
+}
+
+a{
+    color: #F6D155;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.contenedor_principal{
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: -200px;
+    justify-content: center;
+}
+
+span{
+    color: brown;
+    border-left: 15%;
+    border-right: 20%;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+hr{
+    border-color: brown;
+}
+
+.curro{
+    display: block;
+   margin: auto;
+}
+
+img{
+    border: solid grey;
+    border-width: 3px;
+}
+
+.leyenda_curro{
+    text-align: center;
+   font-style: italic;
+   margin-top: 10px;
+}
+
+.lago{
+    display: block;
+    margin: auto;
+}
+
+.leyenda_lago{
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#subpabellon{
+    color: brown;
+    border-left: 15%;
+    border-right: 20%;
+    font-style: italic;
+}
+
+.header{
+    background-color: #223A5E;
+    color: white;
+}
+
+.par{
+    background-color: #D49F75;
+}
+
+.impar{
+    background-color: #C48F65;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 10px;
+    padding: 10px;
+    margin: 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+tr,td{
+    text-align: center;
+}
+
+.imagenes{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: "imagen3 imagen4 imagen5";
+}
+
+.imagen3{
+    grid-area: imagen3;
+    margin-left: 10%;
+}
+
+.imagen4{
+    grid-area: imagen4;
+    margin-left: 10%;
+}
+
+.imagen5{
+    grid-area: imagen5;
+    margin-left: 10%;
+}
+
+figcaption{
+    display: flex;
+    font-style: italic;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.pie_pagina{
+    background-color:#223A5E;
+    color: white;
+    border-top: 5px solid grey;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.wiki{
+    color: #F6D155;
+    font-weight: initial;
+    font-size: initial;
+}
+
+@media (max-width:768px){
+    .cabecera{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+   .Panel_izquierdo{
+    width: 100%;
+    padding: 10px;
+   }
+   
+   .contenedor_principal{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+   }
+
+   .imagenes{
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "imagen3" "imagen4" "imagen5";
+
+   }
+
+   
+}
+
+
